@@ -1,3 +1,8 @@
+/**
+ * Основная функция приложения.
+ * Инициализирует меню списка архивов и отображает его.
+ * @param args Массив аргументов командной строки.
+ */
 fun main(args: Array<String>) {
-    println("Hello World!")
+    ArchiveListMenu("Список архивов:", "архив", archiveMenuList)
 }
