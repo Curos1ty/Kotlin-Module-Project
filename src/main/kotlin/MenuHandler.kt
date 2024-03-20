@@ -40,7 +40,7 @@ fun <T>menuHandler(
         val userInput: Int? = scanner.nextLine().toIntOrNull()
 
         if (userInput != null) {
-            if (userInput <= listMenuItems.size + 1) {
+            if (userInput <= listMenuItems.size + 1 && userInput > -1) {
                 checkInput = when (userInput) {
                     0 -> {
                         if (note != null) {
